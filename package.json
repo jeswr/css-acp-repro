@@ -6,7 +6,8 @@
   "scripts": {
     "serve:wac": "rm -rf ./ownerName && rm -rf ./.internal && community-solid-server",
     "serve:acp": "rm -rf ./ownerName && rm -rf ./.internal && community-solid-server -c ./.css.config.json",
-    "serve:acp:memory": "rm -rf ./ownerName && rm -rf ./.internal && community-solid-server -c ./.css.config.memory.json"
+    "serve:acp:memory": "rm -rf ./ownerName && rm -rf ./.internal && community-solid-server -c ./.css.config.memory.json",
+    "test": "ts-node test.ts"
   },
   "keywords": [],
   "author": "",
