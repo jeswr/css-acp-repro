@@ -9,7 +9,7 @@ then in another terminal run `npm t`.
 
 ## Results
 
-The following are the results of running `npm t` against the three different server configs
+The following are the results of running `npm t` against the three different server configs. Note that `/ownerName/` is publically readable whilst `/ownerName/profile/` is not.
 
 ### WAC [`npm run serve:wac`]
 
