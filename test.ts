@@ -13,7 +13,8 @@ async function main() {
 
   const file = [
     'http://localhost:3010/ownerName/profile/card',
-    'http://localhost:3010/ownerName/profile/'
+    'http://localhost:3010/ownerName/profile/',
+    'http://localhost:3010/ownerName/',
   ]
 
   for (const url of file) {
